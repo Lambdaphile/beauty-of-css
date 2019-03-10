@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: Arial, serif;
+  font-size: 16px;
+  position: relative;
+  margin: 5%;
+  padding: 4.5%;
+  background-color: #77c4d3;
+}
+
+header {
+  margin-right: 30%;
+}
+header h1 {
+  font-size: 1.5em;
+  font-weight: 300;
+  display: inline-block;
+  flex: 1;
+  padding: 20px 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ea2e49;
+}
+header h2 {
+  font-size: 7em;
+  font-weight: 900;
+  line-height: 140px;
+  display: block;
+  margin-top: 3%;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+
+.summary {
+  padding: 5% 5% 5% 0;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+aside {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  right: 0;
+  width: 22.75%;
+  padding: 5%;
+  opacity: 1;
+  background-color: rgba(246, 247, 146, 0.9);
+}
+aside h3 {
+  font-size: 2.25em;
+  font-weight: 100;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+  letter-spacing: 1px;
+  color: #333333;
+}
+aside nav {
+  margin-bottom: 50px;
+}
+aside li {
+  padding: 10px 0 10px 0;
+  list-style: none;
+  color: gray;
+}
+aside li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  text-decoration-color: gray;
+}
+aside li a:hover {
+  text-decoration-color: yellow;
+}
+
+.transparent-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 32%;
+  opacity: 0.8;
+  background-color: black;
+}
+
+p {
+  color: red;
+}
+
+html, body {
+  background-color: #daede2;
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
