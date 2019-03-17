@@ -1,5 +1,5 @@
 # cluster free repo
 node_modules
 
-#webstorm folder
-.idea/
+# vscode folder
+.vscode/
